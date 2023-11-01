@@ -1,0 +1,176 @@
+h3 {
+  display: block;
+  font-size: 1.6rem;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: 600;
+}
+
+.content {
+  width: 100%;
+  min-height: 86vh;
+  position: relative;
+  padding: 10rem;
+  display: flex;
+  animation: fadeIn 0.5s ease;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-content {
+  width: 80rem;
+  height: auto;
+  margin: auto;
+}
+
+.auth {
+  border: 1px solid #c5c5c5;
+  display: flex;
+  justify-content: center;
+  padding: 1.6rem 3.2rem 3.2rem;
+}
+
+.auth-main {
+  width: 100%;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-input,
+.label-input:hover {
+  background: none;
+}
+
+.label-input {
+  padding: 1rem 1.2rem;
+  color: #696868;
+  border: none;
+}
+
+.input-form {
+  padding: 10px 1.6rem !important;
+  border: 1px solid #c5c5c5 !important;
+  font-size: 1.5rem !important;
+}
+
+.auth-action-signup {
+  justify-content: flex-end;
+}
+
+.auth-action {
+  display: flex;
+  justify-content: space-between;
+}
+
+.anticon {
+  display: inline-block;
+  color: inherit;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.anticon {
+  font-size: 1.5rem;
+  justify-content: center;
+}
+
+.auth-divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0 4.8rem;
+}
+
+.auth-divider:before {
+  top: 15%;
+}
+.auth-divider:after,
+.auth-divider:before {
+  content: "";
+  position: absolute;
+  height: 30%;
+  width: 1px;
+  background: #e1e1e1;
+}
+
+.auth-divider:after {
+  bottom: 15%;
+}
+
+.auth-provider {
+  width: 51rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.auth-provider > button {
+  margin-bottom: 1.2rem;
+}
+
+.provider-facebook {
+  background: #0078ff;
+  color: #fff;
+  border: 1px solid #0078ff;
+}
+
+.provider-google {
+  background: #fff;
+  color: #3a3a3a !important;
+  border: 1px solid #c5c5c5;
+}
+
+.provider-github {
+  background: #24292e;
+  color: #fff;
+  border: 1px solid #24292e;
+}
+
+.auth-provider-button {
+  width: 100%;
+  font-size: 1.4rem;
+}
+
+.auth-message {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.2rem;
+  margin: auto;
+  background: #f2f2f2;
+  border: 1px solid #c5c5c5;
+  border-top: none;
+}
+
+.auth-info {
+  margin-right: 3.2rem;
+}
+
+span {
+  color: #4a4a4a;
+  font-size: 1.2rem;
+  position: relative;
+}
+
+.button-small {
+  font-size: 1.2rem;
+  padding: 1.2rem 1.6rem;
+}
+.button-border-gray {
+  border: 1px solid #e1e1e1;
+  color: #4a4a4a !important;
+}

@@ -1,0 +1,258 @@
+a {
+  text-decoration: none;
+  color: #101010;
+}
+
+li {
+  list-style-type: none;
+}
+
+html {
+  font-size: 10px;
+}
+
+.navbar-container {
+  padding: 30px 50px 5px;
+  background: #f9f9f9;
+}
+
+.navbar .active {
+  background: #f2f2f2;
+}
+
+.navbar .default {
+  background: transparent;
+}
+.navbar .nav-link {
+  padding: 10px 15px !important;
+  font-size: 1.4rem;
+}
+
+.navbar .nav-item:hover {
+  cursor: pointer;
+  /* background: #f2f2f2; */
+}
+
+.searchbar-icon {
+  position: absolute;
+  /* left: 1.6rem; */
+  top: 1.6rem;
+  margin: auto;
+  color: #7a7a7a;
+  font-size: 1.6rem;
+}
+
+.searchbar-input,
+.searchbar-recent {
+  /* width: 100%; */
+  width: 300px;
+  background: #fff;
+}
+
+.search-input {
+  padding-left: 4.8rem !important;
+}
+
+.react-tel-input input[type="tel"],
+input,
+textarea {
+  border: 1px solid #e1e1e1;
+  background: transparent;
+  font-size: 1.2rem;
+  padding: 1.2rem 1.6rem;
+  box-shadow: 0;
+  outline: 0;
+}
+
+.button {
+  background: #101010;
+  padding: 1.6rem;
+  border: 1px solid #101010;
+  color: #fff !important;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.button-muted {
+  background: #f2f2f2 !important;
+  color: #7d7d7d !important;
+  border: 1px solid #e1e1e1;
+}
+
+.button-small {
+  font-size: 1.2rem;
+  padding: 1.2rem 1.6rem;
+}
+
+/* cart */
+.is-basket-open .basket {
+  transform: translateX(0);
+}
+
+.basket {
+  width: 60rem;
+  height: 100vh;
+  background: #fff;
+  /* position: fixed;
+  top: 0;
+  right: 0;
+  transform: translateX(100%);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+  z-index: 60; */
+}
+.basket-list {
+  padding: 1.6rem 1.6rem 100px;
+  overflow-y: scroll;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.basket-header {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: -20px;
+  background: #fff;
+  z-index: 60;
+  margin-bottom: 10px;
+}
+
+.basket-header-title {
+  flex-grow: 1;
+}
+
+.button-border-gray {
+  border: 1px solid #e1e1e1;
+  color: #4a4a4a;
+}
+
+.button-border {
+  background: transparent;
+  border: 1px solid #101010;
+  color: #101010;
+}
+
+.basket-item {
+  display: flex;
+  align-items: center;
+  border: 1px solid #e1e1e1;
+  margin-bottom: 1.2rem;
+  -webkit-transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+  -moz-transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+  -o-transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+  -ms-transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+  animation: slide-up 0.5s ease;
+}
+
+.basket-item-control {
+  width: 30px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.basket-control {
+  width: 35px;
+  height: 100%;
+  padding: 5px;
+  font-weight: 700;
+}
+
+.basket-item-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 1.2rem;
+  display: grid;
+  grid-template-columns: 100px 1fr 80px 40px;
+}
+
+.basket-item-img-wrapper {
+  width: 90px;
+  height: 90px;
+  margin-right: 1.6rem;
+  position: relative;
+}
+
+.basket-item-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.is-img-loaded {
+  animation: fadeIn 0.3s ease;
+  opacity: 1;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.basket-item-name {
+  margin: 1.2rem 0;
+  width: 142px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: relative;
+}
+
+.basket-item-specs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.basket-item-specs .spec-title {
+  color: #8d8d8d;
+  font-size: 12px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.basket-checkout {
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.basket-checkout-button {
+  font-size: 1.5rem;
+  padding: 1.6rem 3.2rem;
+  text-transform: uppercase;
+}
+
+/* cart badge */
+.badge-count,
+.footer {
+  display: flex;
+  align-items: center;
+}
+
+.badge-count {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgba(247, 45, 45, 0.986);
+  position: absolute;
+  top: -12px;
+  right: -15px;
+  justify-content: center;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+}

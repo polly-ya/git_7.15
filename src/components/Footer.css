@@ -1,0 +1,20 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  position: relative;
+  padding: 0 5.6rem;
+  margin-top: 4.8rem;
+  background: #f0f0f0;
+  justify-content: space-between;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  /* position: fixed; */
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-logo {
+  width: 85%;
+  margin-bottom: 20px;
+}

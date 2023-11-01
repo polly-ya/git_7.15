@@ -1,0 +1,45 @@
+.banner {
+  margin: 0rem 100px;
+  background: #f3f3f3;
+}
+
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Tajawal, Helvetica, Arial, sans-serif;
+  color: #1a1a1a;
+} */
+
+p {
+  color: #4a4a4a;
+  line-height: 2.4rem;
+}
+
+.banner-img {
+  height: 40rem !important;
+  height: 100%;
+  background-image: url(https://salinaka-ecommerce.web.app/images/banner-girl.789f1fa6f451ad26c5039fcbc049ace7.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-color: red; */
+}
+
+.banner-desc {
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10rem 5rem !important;
+  flex-basis: 50%;
+}
+
+.banner-desc h1 {
+  font-size: 4.8rem;
+  margin-bottom: 1rem;
+  width: 80%;
+}
